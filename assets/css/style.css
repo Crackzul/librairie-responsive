@@ -115,3 +115,25 @@ form input {
     padding: 0.5rem;
     margin-top: 0.5rem;
 }
+
+
+@media screen and (max-width: 360px ) {
+    
+    #banner {
+        flex-direction: column;
+    }
+
+    #banner .banner-img {
+        max-width: 100%;
+    }
+
+    .events {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .event {
+        width: 25vh;
+    }  
+
+}
